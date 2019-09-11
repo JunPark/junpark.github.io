@@ -63,5 +63,5 @@ Earlier, I mentioned "YAML files" that are used for describing API objects in K8
 
 ## Declarative vs. Imperative
 
-Some of you may have noticed that I said "K8s is a platform …. **mostly** (!) in a declarative way." Yes, it targets at providing a declarative framework for most of the cases. However, in reality, such looking-declarative cases involves some degree of imperative situations.
+Some of you may have noticed that I said "K8s is a platform …. **mostly** (!) in a declarative way." Yes, it targets at providing a declarative framework for most of the cases. However, in reality, such looking-declarative cases involve some degree of imperative situations.
 
