@@ -59,7 +59,7 @@ All right, I think it's enough for basic scaffolding. Now, it looks like everyth
 
 ## Why The Ugly Parts In K8s?  
 
-Earlier, I mentioned "YAML files" that are used for describing API objects in K8s. YAML files in K8s are an important method to provide K8s' Domain Specific Language (DSL). With YAML format, K8s has pre-defined structures (expandable though) for all K8s native API Objects and its own interpretation on each entry or item in YAML files. The "interpretation" means a pre-defined and expected behavior behind scene on every single entry, executed by K8s. Now, we've finally arrived at a critical point that can possibly make K8s' DSL look ugly if such an interpretation in K8s is not well-designed. And unfortunately I am arguing that yes, it's horrible in K8s. 
+Earlier, I mentioned "YAML files" that are used for describing API objects in K8s. YAML files in K8s are an important method to provide K8s' Domain Specific Language (DSL). With YAML format, K8s has pre-defined structures (expandable though) for all K8s native API Objects and its own interpretation on each entry or item in YAML files. The "interpretation" means a pre-defined and expected behavior behind scene on every single entry, executed by K8s. Now, we've finally arrived at a critical point that can possibly make K8s' DSL look ugly if such an interpretation in K8s is not well-designed. And unfortunately I am arguing that yes, it's horrible in K8s. Maybe we can ascribe all the ugly to the inherent limitations of YAML format itself. However, in this talk, let's focus on what it is rather than why we got the ugly.
 
 ## Declarative vs. Imperative
 
