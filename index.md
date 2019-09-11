@@ -10,7 +10,7 @@ layout: default
 
 Well, this talk is, rather than for criticizing Kubernetes (K8s in short), more of making interesting notes about the nasty and ugly parts of K8s so that hopefully it makes you able to utilize K8s in a proper way and helps you not to waste too much time in your own debugging. 
 
-Although I assume you are at least familiar with the fundamentals of K8s, as a baseline of the talk, let me quickly review some relevant concepts and objectives in K8s in a few paragraphs. 
+Although I assume you are familiar with at least the fundamentals of K8s, as a baseline of the talk, let me quickly review some relevant concepts and objectives in K8s in a few paragraphs. 
 
 ## Why K8s?
 
