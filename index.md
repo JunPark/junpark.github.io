@@ -55,11 +55,11 @@ spec:
 
 Figure1. A Deployment to deploy an Nginx app with 3 replicas and a Service to expose them.
 
-All right, I think it's enough for basic scaffolding. Now, it looks like everything would work well because the goal of K8s is crystal clear and API objects are well defined by understanding actual end-to-end workflows in managing apps. Well, not really in real life. I would say there would be many edge cases you may run into where you might not be certain as to which way would be a best practice. This argument could be applicable to K8s developers as well, I guess. What I mean by it is K8s developers would not be certain for such edge cases which way could be a best practice to implement. 
+All right, I think it's enough for basic scaffolding. Now, it looks like everything would work well because the goal of K8s is crystal clear and API objects are well defined by understanding actual end-to-end workflows in managing apps. Well, not really in real life. I would say there would be many edge cases you may run into where you might not be certain as to which way would be a best practice. This argument could be applicable to K8s developers as well, I guess. What I mean by it is K8s developers would not be certain for such edge cases on which way could be a best practice to implement. 
 
 ## Why The Ugly Parts In K8s?  
 
-Earlier, I mentioned "YAML files" that are used for describing API objects in K8s. YAML files in K8s are an important method to provide K8s' Domain Specific Language (DSL). With YAML format, K8s has pre-defined structures (expandable though) for all K8s native API Objects and its own interpretation on each entry or item in YAML files. The "interpretation" means a pre-defined and expected behavior behind scene on every single entry, executed by K8s. Now, we've finally arrived at a critical point that can possibly make K8s' DSL look ugly if such an interpretation in K8s is not well-designed. And unfortunately I am arguing that yes, it's horrible in K8s.  
+Earlier, I mentioned "YAML files" that are used for describing API objects in K8s. YAML files in K8s are an important method to provide K8s' Domain Specific Language (DSL). With YAML format, K8s has pre-defined structures (expandable though) for all K8s native API Objects and its own interpretation on each entry or item in YAML files. The "interpretation" means a pre-defined and expected behavior behind scene on every single entry, executed by K8s. Now, we've finally arrived at a critical point that can possibly make K8s' DSL look ugly if such an interpretation in K8s is not well-designed. And unfortunately I am arguing that yes, it's horrible in K8s. 
 
 ## Declarative vs. Imperative
 
